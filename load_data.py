@@ -13,7 +13,7 @@ cursor = conn.cursor()
 
 csv_files = [
     {"file": "customer_purchases.csv", "table": "customer_purchases", "columns": ["customer_id", "purchase_date", "product_id", "quantity", "country"], "types": ["INTEGER", "DATE", "VARCHAR(50)", "INTEGER", "VARCHAR(100)"]},
-    {"file": "product_price.csv", "table": "product_prices", "columns": ["product_id", "price", "valid_from", "valid_to", "is_active"], "types": ["VARCHAR(50)", "DECIMAL", "DATE", "DATE", "INTEGER"], "date_columns": ["valid_from", "valid_to"]}]
+    {"file": "product_price.csv", "table": "product_price", "columns": ["product_id", "price", "valid_from", "valid_to", "is_active"], "types": ["VARCHAR(50)", "DECIMAL", "DATE", "DATE", "INTEGER"], "date_columns": ["valid_from", "valid_to"]}]
 
 for file_info in csv_files:
     table_name = file_info["table"]
