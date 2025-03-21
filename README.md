@@ -10,17 +10,6 @@ The main goal of this repository is to demonstrate my ability to:
 *   Work with different datasets and database scenarios.
 *   Document my approach and solutions clearly.
 
-## Repository Structure
-
-```
-/
-├── customer_purcases/       # Customer purchase analysis files
-├── requirements.txt        # Python dependencies for the project
-├── README.md               # Repository overview and usage instructions
-└── venv/                   # Python virtual environment directory (ignored by Git)
-```
-
-
 ## Examples
 
 The repository includes SQL queries and Python scripts for data analysis. For example, the `customer_purcases/query.sql` file contains SQL queries to analyze customer purchase data.
